@@ -1,0 +1,8 @@
+<!-- 1 src>input.css
+2 index.html
+3 in css(@import "tailwindcss";)
+4 in terminal : in cmd : npm init -y 
+5 do not forget the extention 
+6 npm install tailwindcss @tailwindcss/cli
+7 npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+8<link rel="stylesheet" href="./src/output.css"> -->

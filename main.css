@@ -1,0 +1,312 @@
+img {
+  width: 100%;
+  height: auto;
+}
+* {
+  scroll-behavior: smooth;
+}
+a {
+  list-style: none;
+}
+
+.headerul {
+  li {
+    a:hover {
+      color: #5fcf80;
+    }
+  }
+}
+.Activenav {
+  color: #5fcf80;
+}
+.mediaicon {
+  display: none;
+}
+.aside {
+  display: none;
+}
+.section1 {
+  background-image: url(./imgs/imgi_1_hero-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  h1 {
+    line-height: 60px;
+  }
+  button {
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #5fcf80;
+  }
+}
+.section2 {
+  .svg {
+    transition: all 0.4s;
+  }
+  .heighlight {
+    transition: all 0.3s;
+  }
+  button {
+  }
+  button:hover {
+    .heighlight {
+      scale: 1;
+      display: block;
+    }
+    .svg {
+      transform: translateX(+3px);
+    }
+  }
+}
+
+.container4 {
+  button {
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: white;
+    color: #5fcf80;
+  }
+}
+.section4 {
+  transition: all 0.3s;
+  .icon {
+    transition: all 0.4s;
+  }
+}
+.section4 {
+  :nth-child(2):hover {
+    .icon {
+      background-color: #5fcf80;
+      svg {
+        color: white;
+      }
+    }
+  }
+  :nth-child(3):hover {
+    .icon {
+      background-color: #5fcf80;
+      svg {
+        color: white;
+      }
+    }
+  }
+  :nth-child(4):hover {
+    .icon {
+      background-color: #5fcf80;
+      svg {
+        color: white;
+      }
+    }
+  }
+}
+
+.container5 {
+  :nth-child(1) {
+    transition: all 0.5s ease-in-out;
+    span {
+      transition: all 0.5s ease-in-out;
+    }
+  }
+  :nth-child(1):hover {
+    border: #5fcf80 solid 2px;
+    span {
+      color: #5fcf80;
+    }
+  }
+  :nth-child(2) {
+    transition: all 0.5s ease-in-out;
+    span {
+      transition: all 0.5s ease-in-out;
+    }
+  }
+  :nth-child(2):hover {
+    border: #5fcf80 solid 2px;
+    span {
+      color: #5fcf80;
+    }
+  }
+  :nth-child(3) {
+    transition: all 0.5s ease-in-out;
+    span {
+      transition: all 0.5s ease-in-out;
+    }
+  }
+  :nth-child(3):hover {
+    border: #5fcf80 solid 2px;
+    span {
+      color: #5fcf80;
+    }
+  }
+  :nth-child(4) {
+    transition: all 0.5s ease-in-out;
+    span {
+      transition: all 0.5s ease-in-out;
+    }
+  }
+  :nth-child(4):hover {
+    border: #5fcf80 solid 2px;
+    span {
+      color: #5fcf80;
+    }
+  }
+  :nth-child(5) {
+    transition: all 0.5s ease-in-out;
+    span {
+      transition: all 0.5s ease-in-out;
+    }
+  }
+  :nth-child(5):hover {
+    border: #5fcf80 solid 2px;
+    span {
+      color: #5fcf80;
+    }
+  }
+  :nth-child(6) {
+    transition: all 0.5s ease-in-out;
+    span {
+      transition: all 0.5s ease-in-out;
+    }
+  }
+  :nth-child(6):hover {
+    border: #5fcf80 solid 2px;
+    span {
+      color: #5fcf80;
+    }
+  }
+  :nth-child(7) {
+    transition: all 0.5s ease-in-out;
+    span {
+      transition: all 0.5s ease-in-out;
+    }
+  }
+  :nth-child(7):hover {
+    border: #5fcf80 solid 2px;
+    span {
+      color: #5fcf80;
+    }
+  }
+  :nth-child(8) {
+    transition: all 0.5s ease-in-out;
+    span {
+      transition: all 0.5s ease-in-out;
+    }
+  }
+  :nth-child(8):hover {
+    border: #5fcf80 solid 2px;
+    span {
+      color: #5fcf80;
+    }
+  }
+  :nth-child(9) {
+    transition: all 0.5s ease-in-out;
+    span {
+      transition: all 0.5s ease-in-out;
+    }
+  }
+  :nth-child(9):hover {
+    border: #5fcf80 solid 2px;
+    span {
+      color: #5fcf80;
+    }
+  }
+  :nth-child(10) {
+    transition: all 0.5s ease-in-out;
+    span {
+      transition: all 0.5s ease-in-out;
+    }
+  }
+  :nth-child(10):hover {
+    border: #5fcf80 solid 2px;
+    span {
+      color: #5fcf80;
+    }
+  }
+  :nth-child(11) {
+    transition: all 0.5s ease-in-out;
+    span {
+      transition: all 0.5s ease-in-out;
+    }
+  }
+  :nth-child(11):hover {
+    border: #5fcf80 solid 2px;
+    span {
+      color: #5fcf80;
+    }
+  }
+  :nth-child(12) {
+    transition: all 0.5s ease-in-out;
+    span {
+      transition: all 0.5s ease-in-out;
+    }
+  }
+  :nth-child(12):hover {
+    border: #5fcf80 solid 2px;
+    span {
+      color: #5fcf80;
+    }
+  }
+}
+.Antonio{
+  cursor: pointer;
+  transition: all .3s;
+}
+.Antonio:hover{
+color: #5fcf80;
+}
+.Website-Design{
+transition: all .3s;
+cursor: pointer;
+}
+.Website-Design:hover{
+color: #5fcf80;
+}
+
+.socialmedia{
+  svg{
+    transition: all .3s;
+cursor: pointer;
+  }
+}
+.socialmedia{
+  div{
+    svg:hover{
+
+      color: #5fcf80;
+    }
+  }
+}
+.iconss{
+  div{
+    cursor: pointer;
+    transition: all .4s;
+  }
+  div:hover{border-color: #5fcf80;
+    svg{color: #5fcf80;
+
+    }
+  }
+}
+.one{
+  nav{
+    ul{
+      li{
+        transition: all .4s;
+      }
+      li:hover{
+        color: #5fcf80;
+
+      }
+    }
+  }
+}
+.Subscribe:hover{background-color: #7ef1a1;
+}
+.Subscribe{
+  transition: all .3s;
+}
+.upbtn{
+  transition: all .4s ease-in-out;
+}

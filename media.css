@@ -1,0 +1,118 @@
+@media (max-width:1200px){
+header{
+    .navandbutton{display: flex;
+        gap:10px ;
+        nav{
+
+            display:none;
+        }
+    }
+}
+.mediaicon{
+    display: inline;
+    
+}
+.container3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.container5{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(6,1fr);
+}
+.container6{padding: 30px 20px;
+.Courses{
+    width: 80%;
+}
+.up:nth-child(2){
+width: 100%;
+}
+}
+.container7{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,1fr);
+    gap: 30px 20px;
+}
+.container8{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,1fr);
+    gap: 20px 0;
+   padding: 0 100px;
+}
+.one{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+}
+@media (max-width:600px){
+.headercontainer{
+    margin: 30px ;
+}
+.navandbutton{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.section1{
+    padding: 20px 0;
+
+}
+.container2{
+    padding: 0px 20px;
+    button{
+        width: 50%;
+    }
+}
+.container7{
+    padding: 20px 20px;
+}
+.container8{
+    padding: 20px 20px;
+}
+}
+
+@media (max-width:1400px){
+    .container2{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+       gap:20px 0px;
+       margin-top: 30px;
+    }
+    .container4{
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows: repeat(4,1fr);
+        padding: 30px 10px;
+    }
+}
+@media (max-width:820px){
+    .container3{
+        margin: 30px 0;
+        padding: 30px 30px;
+        gap: 0 20px;
+    }
+    .container5{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(12,1fr);
+        padding: 30px 10px;
+        div{
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .one{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,1fr);
+        gap:20px 0
+    }
+    .footercontainer{
+        padding: 20px 20px;
+    }
+}
